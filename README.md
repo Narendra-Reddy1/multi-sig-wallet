@@ -1,13 +1,11 @@
-# Sample Hardhat Project
+# Multi Signature Wallet
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a Hardhat Ignition module that deploys that contract.
+This project demonstrates a Multi Signature wallet. It comes with a MultiSignatureWallet contract.
 
-Try running some of the following tasks:
 
 ```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
+npx hardhat compile
 npx hardhat node
-npx hardhat ignition deploy ./ignition/modules/Lock.ts
+npx hardhat deploy
+npx hardhat test
 ```
